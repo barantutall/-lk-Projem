@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="keyword" content="Sedye Örtüsü, Tutal Kozmetik">
+    <!-- fonts google -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- tablet - mobile -->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
+</head>
+
+<body>
+    <header class="bg-dark-blue">
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="heading-small">TUTAL MEDİKAL</h1>
+                <ul>
+                    <li><a href="#anasayfa">Ana Sayfa</a></li>
+                    <li><a href="#hakkımızda">Hakkımızda</a></li>
+                    <li><a href="#ürünler">Ürünler</a></li>
+                    <li><a href="#iletişim">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <img src="./image/ekran alıntısı.jpg" alt="Sedye Örtüsü">
+        <div class="name text-center">
+            <h2>TUTAL MEDİKAL</h2>
+            <P>Ürünler | Sedye Örtüsü</P>
+        </div>
+
+        <a href="#ürünler" class="btn btn-dark">Ürünlere Git</a>
+    </section>
+
+    <section id="home-2">
+        <img src="./image/Ağda Bezi.jpg" alt="Ağda Bezi">
+        <div class="name text-center">
+            <h3>TUTAL MEDİKAL</h3>
+            <P>Ürünler | Ağda Bezi</P>
+        </div>
+        <a href="#ürünler" class="btn btn-primary">Ürünlere Git</a>
+    </section>
+
+    <section id="about" class="bg-dark-blue">
+        <h3 class="text-center" class="heading-medium">HAKKIMIZDA</h3>
+        <div class="items">
+            <article class="item">
+                <i class="fa-solid fa-address-card"></i>
+                <h3>KURULUŞ</h3>
+                <p>Faaliyetlerine 2017 de Alanya'da başlayan <span style="font-style: oblique;">TUTAL MEDİKAL</span> her
+                    geçen gün kendini geliştirerek ve ürün
+                    yelpazesini arttırarak yoluna emin adımlar ile devam etmektedir.</p>
+            </article>
+            <article class="item">
+                <i class="fa-solid fa-address-card"></i>
+                <h3>VİZYONUMUZ</h3>
+                <p>Hep daha ileriye mottosu ile yakın gelecekte müşterilerimiz ile birlikte sektörün zirvesinde olmak en
+                    büyük vizyonumuzdur.</p>
+            </article>
+            <article class="item">
+                <i class="fa-solid fa-address-card"></i>
+                <h3>MİSYONUMUZ</h3>
+                <p>Sürekli kendimizi yenileyerek sektörün gerektirdiği yeni ürünler , yeni makineler , ve yeni
+                    teknikleri kullanarak bu vizyona ulaşmak için tüm çabamız sürmektedir.</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="products">
+        <h3 class="text-center" class="heading-medium">ÜRÜNLER</h3>
+
+        <div class="container">
+            <!-- Product 1 -->
+            <div class="products">
+                <div class="product">
+                    <div class="product-image">
+                        <img src="./image/Tek kullanımlık şort.JPG" alt="Tek kullanımlık şort">
+                        <div class="product-info">İç Göstermez | Lastikli | Her Bedene Uygun</div>
+                    </div>
+                </div>
+
+                <!-- product 2 -->
+                <div class="product">
+                    <div class="product-image">
+                        <img src="./image/ekran alıntısı.jpg" alt="Sedye Örtüsü">
+                        <div class="product-info">80X220 BOYUTLARINDA | ÇİFT TARAFI LASTİKLİ | SIVIYA DAYANIKLI</div>
+                    </div>
+                </div>
+                <!-- PRODUCT 3 -->
+                <div class="product">
+                    <div class="product-image">
+                        <img src="./image/Tek kullanımlık havlu.JPG" alt="Tek kullanımlık havlu">
+                        <div class="product-info">40X80 BOYUTLARINDA | PETEKLİ YAPIDA | SIVIYI EMER</div>
+                    </div>
+                </div>
+                <!-- PRODUCT 4 -->
+                <div class="product">
+                    <div class="product-image">
+                        <img src="./image/Ağda Bezi.jpg" alt="Ağda bezi">
+                        <div class="product-info">100 METRE | TAHRİŞ ETMEZ | YAPIŞMAZ</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-dark-blue">
+        <div class="contact-form">
+            <form>
+                <h4 class="text-center" class="heading-medium">Bize Ulaşın</h4>
+
+                <div class="form-group">
+                    <label for="name">İsim</label>
+                    <input type="text" class="form-control" name="name" id="name" placeholder="isim">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" class="form-control" name="email" id="email" placeholder="E-Mail">
+                </div>
+                <div class="form-group">
+                    <label for="message">Mesaj</label>
+                    <textarea name="message" id="message" class="form-control"  rows="5" placeholder="Mesajınız..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-block">Gönder</button>
+            </form>
+
+            <ul>
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
